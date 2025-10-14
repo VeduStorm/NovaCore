@@ -1,0 +1,44 @@
+# filename: pyproject.toml
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "novacore"
+version = "1.2.1"
+description = "License validation for Phantom Licensing System"
+authors = [{ name = "Vedant", email = "vedant.storm@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["requests>=2.31"]
+
+# 🧩 Project metadata
+license = { text = "MIT" }
+keywords = ["license", "phantom", "verification", "api", "novacore", "license-check"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Build Tools"
+]
+
+[tool.setuptools]
+packages = ["novacore"]
+include-package-data = false
+
+[project.urls]
+Homepage = "https://github.com/VedantStorm/NovaCore"
+Repository = "https://github.com/VedantStorm/NovaCore"
+Issues = "https://github.com/VedantStorm/NovaCore/issues"
+Documentation = "https://github.com/VedantStorm/NovaCore#readme"
+
+[project.scripts]
+login = "novacore.license:login"

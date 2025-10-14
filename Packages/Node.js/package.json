@@ -1,0 +1,38 @@
+{
+  "name": "@vedustorm/novacore",
+  "version": "1.1.6",
+  "description": "License verification CLI and module for NovaCore",
+  "type": "module",
+  "main": "novacore.js",
+  "exports": {
+    ".": {
+      "import": "./novacore.js"
+    }
+  },
+  "bin": {
+    "license-check": "novacore.js"
+  },
+  "files": [
+    "novacore.js",
+    "README.md",
+    "usage.js",
+    "config/config.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeduStorm/NovaCore.git"
+  },
+  "homepage": "https://github.com/VeduStorm/NovaCore#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Vedant Gandhi",
+  "license": "MIT",
+  "keywords": [
+    "license",
+    "verification",
+    "cli",
+    "novacore"
+  ],
+  "dependencies": {}
+}

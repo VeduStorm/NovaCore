@@ -1,0 +1,8 @@
+{
+  "license": {
+    "url": "https://your_domain/api/license",
+    "key": "license_key",
+    "discord_id": "discord_ID___optional",
+    "product_name": "product_name___optional"
+  }
+}
