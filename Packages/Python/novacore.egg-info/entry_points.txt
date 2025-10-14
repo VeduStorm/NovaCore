@@ -1,2 +1,0 @@
-[console_scripts]
-login = novacore.license:login

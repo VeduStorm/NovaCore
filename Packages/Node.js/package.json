@@ -1,6 +1,6 @@
 {
   "name": "@vedustorm/novacore",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "License verification CLI and module for NovaCore",
   "type": "module",
   "main": "novacore.js",
@@ -16,7 +16,8 @@
     "novacore.js",
     "README.md",
     "usage.js",
-    "config/config.json"
+    "config/config.json",
+    "vedustorm-novacore-1.1.7.tgz"
   ],
   "repository": {
     "type": "git",
