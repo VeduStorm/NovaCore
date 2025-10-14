@@ -39,7 +39,7 @@ Both implementations support:
 ---
 
 ## Contact Me
-- [Discord](https://discord.com/users/1104705926558130207)
-- [Email](mailto:vedant.storm@gmail.com)
+- [Discord](https://discord.com/users/1104705926558130207) || cool.guy_57
+- [Email](mailto:vedant.storm@gmail.com) || vedant.storm@gmail.com
 
 - Open to Contribution
