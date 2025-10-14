@@ -29,7 +29,7 @@ NovaCore LicenseCheck is designed to:
 
 ### Names of Packages
 - novacore `pip install novacore` [Python]
-- @vedustorm/novacore 'npm install @vedustorm/novacore' [Node.js]
+- @vedustorm/novacore `npm install @vedustorm/novacore` [Node.js]
 
 Both implementations support:
 - **Unified 404 → INVALID_LICENSE_KEY normalization**
