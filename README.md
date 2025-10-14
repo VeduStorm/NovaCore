@@ -35,7 +35,9 @@ Both implementations support:
 - **Unified 404 → INVALID_LICENSE_KEY normalization**
 - **Retry logic** for HTTP 500 (header-based → JSON body)
 - **Configurable checks** and clear output for CI/CD
-
+---
+## License
+This source is Licensed under [Mozilla Public License 2.0](LICENSE)
 ---
 
 ## Contact Me
