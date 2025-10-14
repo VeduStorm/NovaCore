@@ -40,7 +40,7 @@ Both implementations support:
 This source is Licensed under [Mozilla Public License 2.0](LICENSE)
 ---
 ## Contributing
-READ [CODE OF CONDUCT](CODE_OF_CONDUCT.md) and follow [Contributing Guidelines](.github/CONTRIBUTING.md)
+READ [CODE OF CONDUCT](.github/CODE_OF_CONDUCT.md) and follow [Contributing Guidelines](.github/CONTRIBUTING.md)
 
 - If you don't know how to contribute check out this [Repository](https://github.com/firstcontributions/first-contributions)
 ---
