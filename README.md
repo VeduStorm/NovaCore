@@ -37,3 +37,9 @@ Both implementations support:
 - **Configurable checks** and clear output for CI/CD
 
 ---
+
+## Contact Me
+- [Discord](https://discord.com/users/1104705926558130207)
+- [Email](mailto:vedant.storm@gmail.com)
+
+- Open to Contribution
