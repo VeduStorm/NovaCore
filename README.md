@@ -39,6 +39,11 @@ Both implementations support:
 ## License
 This source is Licensed under [Mozilla Public License 2.0](LICENSE)
 ---
+## Contributing
+READ [CODE OF CONDUCT](CODE_OF_CONDUCT.md) and follow [Contributing Guidlines](CONTRIBUTING_GUIDLINES.md)
+
+- If you don't know how to contribute check out this [Repository](https://github.com/firstcontributions/first-contributions)
+---
 
 ## Contact Me
 - [Discord](https://discord.com/users/1104705926558130207) || cool.guy_57
