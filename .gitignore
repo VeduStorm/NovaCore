@@ -1,5 +1,5 @@
 # =====================================
-# 🧠 GENERAL SYSTEM / OS FILES
+# 🧠 macOS SYSTEM FILES
 # =====================================
 .DS_Store
 .AppleDouble
@@ -18,120 +18,20 @@ Thumbs.db
 *.iml
 *.ipr
 *.iws
-out/
-# JetBrains settings
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/dictionaries
 .idea/**/shelf
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-.idea/**/gradle.xml
-.idea/**/libraries
 .idea/**/caches/
-.idea/**/modules.xml
 
 # =====================================
-# 🐍 PYTHON
+# 🐍 PYTHON CACHE / ENVIRONMENTS
 # =====================================
-
-# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# IPython / Jupyter
-.ipynb_checkpoints
-profile_default/
-ipython_config.py
-
-# Pyre type checker
-.pyre/
-
-# pytype static type analyzer
-.pytype/
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Cython
-cython_debug/
-
-# =====================================
-# 🧪 ENVIRONMENTS
-# =====================================
+# Virtual environments
 .env
 .venv
 env/
@@ -140,22 +40,25 @@ ENV/
 env.bak/
 venv.bak/
 
-# Poetry
-poetry.lock
-poetry.toml
-
 # =====================================
-# 🧾 LOGS / TEMP
+# 🧱 TEST / LOG / TEMP
 # =====================================
 *.log
 *.tmp
-*.temp
 *.bak
 *.swp
 *.swo
+tmp/
+.cache/
+pytest_cache/
+.tox/
+.nox/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
 
 # =====================================
-# 🧱 EDITOR / TOOLING
+# ⚙️ TOOLING / EDITOR
 # =====================================
 .vscode/
 *.code-workspace
@@ -163,7 +66,7 @@ poetry.toml
 *.sublime-project
 
 # =====================================
-# 🧩 NODE (if any Node.js integration)
+# ⚡ NODE (but keep builds)
 # =====================================
 node_modules/
 npm-debug.log*
@@ -171,23 +74,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # =====================================
-# ⚙️ OTHER / CUSTOM
+# 🔒 CONFIGS / SECRETS (optional)
 # =====================================
 config/local.json
 config/test_config.json
 secrets.json
-*.orig
-*.rej
-
-# =====================================
-# 🚀 PROJECT SPECIFIC (NovaCore)
-# =====================================
-# Python build folders
-novacore/__pycache__/
-novacore/*.pyc
-novacore/*.pyo
-novacore/.DS_Store
-
-# Temporary exports or local testing artifacts
-test/
-tmp/
